@@ -1,0 +1,5 @@
+{
+    "require-dev": {
+        "zhuravljov/yii2-debug": "^1.4"
+    }
+}

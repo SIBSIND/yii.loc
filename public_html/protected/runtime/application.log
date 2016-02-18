@@ -1,0 +1,13 @@
+2016/02/19 00:47:01 [error] [exception.CException] exception 'CException' with message 'Alias "vendor.zhuravljov.yii2-debug.Yii2Debug" is invalid. Make sure it points to an existing directory or file.' in C:\OpenServer\domains\yii.loc\framework\YiiBase.php:348
+Stack trace:
+#0 C:\OpenServer\domains\yii.loc\framework\YiiBase.php(196): YiiBase::import('vendor.zhuravlj...', true)
+#1 C:\OpenServer\domains\yii.loc\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\OpenServer\domains\yii.loc\framework\base\CModule.php(530): CModule->getComponent('debug')
+#3 C:\OpenServer\domains\yii.loc\framework\base\CApplication.php(168): CModule->preloadComponents()
+#4 C:\OpenServer\domains\yii.loc\framework\YiiBase.php(125): CApplication->__construct('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\yii.loc\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\yii.loc\public_html\index.php(13): YiiBase::createWebApplication('C:\\OpenServer\\d...')
+#7 {main}
+REQUEST_URI=/index.php?r=site/index
+HTTP_REFERER=http://yii.loc/index.php?r=site/page&view=about
+---

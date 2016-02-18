@@ -1,0 +1,18 @@
+<?php
+
+// This is the database connection configuration.
+return array(
+	'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
+	// uncomment the following lines to use a MySQL database
+
+	'connectionString' => 'mysql:host=localhost;dbname=yiitest',
+	'emulatePrepare' => true,
+	'username' => 'syrexby',
+	'password' => 'hu23KVTX',
+	'charset' => 'utf8',
+	'tableprefix' => 'y_',
+
+	'enableProfiling' => true,
+	'enableParamLogging' => true,
+
+);
